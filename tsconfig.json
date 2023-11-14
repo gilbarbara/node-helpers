@@ -1,0 +1,15 @@
+{
+  "extends": "@gilbarbara/tsconfig",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "noEmit": true,
+    "paths": {
+      "~/*": ["src/*"]
+    },
+    "types": ["vitest/globals"],
+    "target": "ES2022"
+  },
+  "include": ["src/**/*"]
+}
