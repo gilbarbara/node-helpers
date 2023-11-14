@@ -30,6 +30,9 @@
     "node",
     "helpers"
   ],
+  "dependencies": {
+    "fast-glob": "^3.3.2"
+  },
   "devDependencies": {
     "@gilbarbara/eslint-config": "^0.7.1",
     "@gilbarbara/prettier-config": "^1.0.0",

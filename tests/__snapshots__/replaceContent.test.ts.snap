@@ -1,0 +1,19 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`replaceContent > should replace properly 1`] = `
+[
+  "/* eslint-disable no-restricted-exports,import/no-unresolved */
+import { Data, KeyType, TreeChanges, Value, default as treeChanges } from 'tree-changes';
+
+
+declare function useTreeChanges<T extends Data>(value: T): TreeChanges<KeyType<T, T>>;
+
+declare namespace UseTreeChanges {
+  export { Data, KeyType, TreeChanges, Value, treeChanges };
+
+  export { useTreeChanges as default };
+}
+
+export = UseTreeChanges;",
+]
+`;
