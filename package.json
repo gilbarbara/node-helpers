@@ -1,6 +1,6 @@
 {
   "name": "@gilbarbara/node-helpers",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Collection of useful functions for node",
   "author": "Gil Barbara <gilbarbara@gmail.com>",
   "repository": {
